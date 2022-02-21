@@ -1,0 +1,443 @@
+/* Universal Selector */
+*{
+    border: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+/* Heading */
+.div-one{
+    position: absolute;
+    top: 1%;
+}
+
+/* h1 tag */
+.h{
+    font-size: 60px;
+    color: black;
+    font-weight: bolder;
+    cursor:pointer;
+    text-shadow: 2px 2px red;
+}
+
+/* Heading link remove underline */
+.a{
+    text-decoration: none;
+}
+
+/* Form */
+.main{
+    position:absolute;
+    top:15%;
+    left: 33%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 1200px;
+    width: 635px;
+    font-size: 20px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* First Name */
+.div-two{
+        
+        margin:5px 3px;
+        padding: 2px;
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 98%;  
+        box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* First name text input */
+#fn{
+    width: 82%;
+    outline:none;
+    background: none;
+}
+
+/* Middle Name */
+.div-three{
+    margin: 5px 3px;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 98%;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Middle Name text input */
+#mn{
+    width: 61%;
+    outline:none;
+    background: none;
+}
+
+/* Last Name */
+.div-four{
+    margin:5px 3px;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Last name text input */
+#ln{
+    width: 82%;
+    outline: none;
+    background: none;
+}
+
+/* Email */
+.div-five{
+    margin: 5px 3px;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Email input */
+#mail{
+    width: 88%;
+    outline: none;
+    background: none;
+}
+
+/* Password */
+.div-six{
+    margin: 5px 3px;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Password Input */
+#pass{
+    width: 84%;
+    outline: none;
+    background: none;
+}
+
+/* Re-type Password */
+.div-seven{
+    margin: 5px 3px;
+    padding: 2px;
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Retype Password input */
+#rpass{
+    width: 72%;
+    outline: none;
+    background: none;
+}
+
+/* Phone Number */
+.div-eight{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px 3px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Phone Number tel input */
+#pn{
+    width: 75%;
+    outline: none;
+    background: none;
+}
+
+/* Gender */
+.div-nine{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px 3px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Others gender text input */
+#gender1{
+    width: 84.25%;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+    background: none;
+}
+
+/* Date of Birth */
+.div-ten{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px 3px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Date, Month and Year dropdown menu */
+#date, #month, #year{
+    width: 26.18%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 2px;
+    background: none;
+}
+
+/* Religion */
+.div-eleven{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px 3px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Others religion text input */
+#rel1{
+    width: 84%;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background: none;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Associate Website */
+.div-twelve{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px 3px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Associate Website url input */
+#url{
+    width: 71%;
+    outline: none;
+    background: none;
+}
+
+/* Profile Picture */
+.div-thirteen{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px 3px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Profile Picture file input */
+#dp{
+    outline: none;
+    background: none;
+}
+
+/* Department */
+.div-fourteen{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px 3px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Department dropdown menu */
+#dep{
+    outline: none;
+    background: none;
+}
+
+/* Security Question */
+.div-fifteen{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px 3px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Security Questions Dropdown menu */
+#sq{
+    outline: none;
+    background: none;
+}
+
+/* Security Questions Answer */
+.div-sixteen{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px 3px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Security Questions Answer text input */
+#sqa{
+    outline: none;
+    width: 60%;
+    background: none;
+}
+
+/* Message */
+.div-seventeen{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px 3px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Message Textare input */
+#ta{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 99.4%;
+    background: none;
+}
+
+/* Submit and Reset button */
+.div-eighteen{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px 3px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Submit and Reset Input */
+.but{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 49.5%;
+    cursor: pointer;
+}
+
+/* Restore Account link*/
+.link-one{
+    position: absolute;
+    top: 147%;
+    left: 33%;
+    width: 620px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgrey;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Sign In page link */
+.link-two{
+    position: absolute;
+    top: 153%;
+    left: 33%;
+    width: 620px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: khaki;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Go to top link */
+.link-three{
+    position: absolute;
+    top: 164%;
+    left: 2%;
+    font-size: 26px;
+    color: blanchedalmond;
+    background: none;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/* Search Form */
+#ser{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    text-align: center;
+    border: 2px solid blueviolet;
+    color: grey;
+    border-radius: 5px;
+    font-size: 26px;
+    height: 40px;
+    font-weight: bolder;
+    background: none;
+}
+
+/* Search Placeholder Text */
+#ser::placeholder{
+    color: honeydew;
+    text-shadow: 2px 2px black;
+}
+
+/* Paragraph */
+.pr{
+    position: absolute;
+    top: 157%;
+    color: aqua;
+}
+
+/* Footer */
+.fot{
+    position: absolute;
+    top: 162%;
+    right: 3%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: deepskyblue;
+}
+
+/* Span in footer */
+.sp{
+    color: red;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+
+/* Body tag/Background Image */
+.b{
+    background-image: url(../img/maxresdefault.jpg);
+    width: 100%;
+    height: auto;
+    background-size: 150% 1620%;
+}

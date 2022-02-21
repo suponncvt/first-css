@@ -1,0 +1,297 @@
+/* Universal Selector */
+*{
+    border: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.div-one{
+    position: absolute;
+    top: 1%;
+    background: none;
+    cursor: pointer;
+    font-size: 36px;
+    text-shadow: 2px 2px black;
+}
+
+/* Heading Link underline none */
+.a{
+    text-decoration: none;
+}
+
+/* Heading Paragraph */
+.pr{
+    position: absolute;
+    font-size: 24px;
+    font-weight: bolder;
+    color: lightgoldenrodyellow;
+}
+
+/* Form tag */
+.main{
+    position: absolute;
+    top: 15%;
+    left: 33%;
+    border: 5px solid cornsilk;
+    border-radius: 10px;
+    width: 620px;
+    height: 440px;
+    padding: 10px;
+    background: none;
+    font-size: 20px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* E-Mail */
+.div-two{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    background-color: moccasin;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Mail input */
+#mail{
+    width: 89%;
+    font-size: 20px;
+    background: none;
+    outline: none;
+}
+
+/* Telephone  */
+.div-three{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    background-color: moccasin;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Tel input */
+#pn{
+    width: 76%;
+    font-size: 20px;
+    outline: none;
+    background: none;
+}
+
+/* Security Captch */
+.div-four{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    background-color: moccasin;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Number input */
+#sc{
+    width: 74%;
+    font-size: 20px;
+    outline: none;
+    background: none;
+}
+
+/* Local Date time */
+.div-five{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    background-color: moccasin;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* localdateo-time input */
+#lt{
+    width: 83%;
+    box-sizing: border-box;
+    outline: none;
+    background: none;
+}
+
+/* Dropdown Menu */
+.div-six{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    background-color: moccasin;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Dropdown menu input */
+#sq{
+    font-size: 20px;
+    outline: none;
+    background: none;
+}
+
+/* Select tag */
+#sq select{
+    display: none;
+}
+
+/* Option tag */
+.op{
+    background-color: aquamarine;
+}
+
+/* Security Question Answer */
+.div-seven{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    background-color: moccasin;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Text input */
+#sqa{
+    width: 59%;
+    font-size: 20px;
+    outline: none;
+    background: none;
+}
+
+/* Associate Website  */
+.div-eight{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    background-color: moccasin;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* URL input */
+#aw{
+    width: 72%;
+    font-size: 20px;
+    outline: none;
+    background: none;
+}
+
+/* Submit and Reset button */
+.div-nine{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 98%;
+    padding: 5px;
+    background-color: aquamarine;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Submit and reset input */
+.but{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 49.5%;
+    background-color: plum;
+    cursor: pointer;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Sign in link */
+.link-one{
+    position: absolute;
+    top: 68%;
+    left: 33%;
+    width: 620px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgrey;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Create new account link */
+.link-two{
+    position: absolute;
+    top: 75%;
+    left: 33%;
+    width: 620px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: khaki;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Go to top link */
+.link-three{
+    position: absolute;
+    top: 96%;
+    left: 2%;
+    font-size: 26px;
+    color: white;
+    background: none;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/* Search form */
+.ser{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    text-align: center;
+    border: 2px solid blueviolet;
+    color: grey;
+    border-radius: 5px;
+    font-size: 26px;
+    height: 40px;
+    font-weight: bolder;
+    background: none;
+}
+
+/* Inside search text */
+.ser::placeholder{
+    color: honeydew;
+    text-shadow: 2px 2px black;
+}
+
+/* Footer */
+.fot{
+    position: absolute;
+    top: 92%;
+    right: 3%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkblue;
+}
+
+/* Span in footer */
+.sp{
+    color: red;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+
+/* Body tag/Background Image */
+.b{
+    background-image: url(../img/Forest_in_Japan.jpg);
+    width: 99%;
+    height: auto;
+    background-size: 100%;
+}

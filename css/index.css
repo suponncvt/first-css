@@ -1,0 +1,174 @@
+/* Universal Selector */
+*{
+    border: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Class Selector */
+/* Heading Div*/
+.div-one{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    background: none;
+    cursor: pointer;
+}
+
+/* Heading Link*/
+.a-one{
+    text-decoration: none;
+}
+
+/* Heading */
+.h-one{
+    color: brown;
+    font-size: 80px;
+    text-shadow: 2px 2px black;
+    background: none;
+    font-weight: bolder;
+}
+
+/* Form */
+.main{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    height: 200px;
+    width: 500px;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid palevioletred;
+    opacity: 250%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Mail and Password form */
+.for{
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 15%;
+    width: 92%;
+    font-size: 20px;
+    padding: 10px;
+    opacity: 200%;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+    background-color: aquamarine;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+}
+
+/* Submit and Reset button */
+.sub{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 47.5%;
+    padding: 5px;
+    color: cadetblue;
+    font-weight: bolder;
+    background-color: aqua;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+    cursor: pointer;
+}
+
+/* Restore Account link */
+.link-one{
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 40%;
+    width: 490px;
+    padding: 12px;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    font-size: 22px;
+    color: darkgreen;
+    font-weight: bolder;
+    background-color: coral;
+    text-decoration: none;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+    cursor: pointer;
+}
+
+/* Sign Up link */
+.link-two{
+    position: absolute;
+    text-align: center;
+    top: 68%;
+    left: 40%;
+    width: 490px;
+    padding: 12px;
+    font-size: 22px;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: darkslategray;
+    background-color: mediumpurple;
+    text-decoration: none;
+    box-shadow: 2px 2px 9px rgb(184,184,184),
+                -1px -1px 5px rgb(184,184,184);
+    cursor: pointer;
+}
+
+/* Search form */
+.form-two{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+/* Search text */
+.sear{
+    text-align: center;
+    border: 2px solid blueviolet;
+    color: grey;
+    border-radius: 5px;
+    font-size: 26px;
+    height: 40px;
+    font-weight: bolder;
+    background: none;
+}
+
+/* Footer tag */
+.foot{
+    position: absolute;
+    top: 92%;
+    right: 3%;
+    font-size: 20px;
+    font-weight: bolder;
+    background: none;
+}
+
+/* Span in footer */
+.s{
+    color: red;
+    font-size: 30px;
+}
+
+/* Go top link */
+.GT{
+    position: absolute;
+    top: 96%;
+    left: 2%;
+    font-size: 26px;
+    color: white;
+    background: none;
+    font-weight: bolder;
+}
+
+/* Body tag/Background Image */
+.b{
+    background-image: url(../img/ocean_forest-08-1.jpg);
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
